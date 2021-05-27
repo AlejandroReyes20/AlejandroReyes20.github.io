@@ -1,3 +1,4 @@
+
 var firebaseConfig = {
   apiKey: "AIzaSyBZw4Z7Z-VrMnTpP9t_mbDSTXSAT5Sb0eg",
   authDomain: "fbwebcesar21.firebaseapp.com",
@@ -8,6 +9,6 @@ var firebaseConfig = {
   measurementId: "G-BTDYFVVY7Z"
 };
 // Initialize Firebase
-await auth.signOut();
+
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
