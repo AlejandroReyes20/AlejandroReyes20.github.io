@@ -8,5 +8,6 @@ var firebaseConfig = {
   measurementId: "G-BTDYFVVY7Z"
 };
 // Initialize Firebase
+await auth.signOut();
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
